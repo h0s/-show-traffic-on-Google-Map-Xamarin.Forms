@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.GoogleMapTraffic">
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+	<application android:label="GoogleMapTraffic.Android">
+	  <meta-data android:name="com.google.android.maps.v2.API_KEY"
+	             android:value="AIzaSyBkV1hhDrCqfbtrqbhtrLZO7qI7RhNdC-w" />
+	</application>
+</manifest>
